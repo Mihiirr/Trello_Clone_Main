@@ -1,0 +1,134 @@
+.model {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.8);
+    z-index: 1;
+    position: fixed;
+    padding-top: 40px;
+  }
+  
+  .board_modal{
+    height: 185px;
+    width: 420px;
+    position: absolute;
+    margin-left: 565px;
+    margin-top: 50px;
+    z-index: 2;
+  }
+  
+  .modal_input_theme {
+    display: flex;
+  }
+  
+  .input_style::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 0.7; /* Firefox */
+  }
+  
+  .modal_input {
+    height: 110px;
+    width: 300px;
+    background-color: black;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
+    /* background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://images.unsplash.com/photo-1495107334309-fcf20504a5ab?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZmFybXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"); */
+    background-size: cover;
+    border-radius: 4px;
+    padding: 15px;
+    color: white;
+  }
+  
+  .input_style {
+    width: 220px;
+    border-radius: 4px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 5px;
+  }
+  
+  .input_style:hover {
+    background-color: rgb(255, 255, 255, 0.35);
+  }
+  
+  .input_style:focus {
+    background-color: rgb(255, 255, 255, 0.45);
+  }
+  
+  .modal_input p{
+    margin: 0;
+    margin-left: 5px;
+  }
+  
+  .input_workspace{
+    height: 30px;
+    width: 180px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+  }
+  
+  .input_workspace p{
+    margin-right: 5px;
+  }
+  
+  .input_workspace:hover {
+    background-color: rgb(255, 255, 255, 0.35);
+    cursor: pointer;
+  }
+  
+  .modal_theme_selector {
+    height: 110px;
+    width: 120px;
+    padding-bottom: 10px;
+    border-radius: 4px;
+  }
+  
+  .theme_first_row {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .theme_box {
+    height: 30px;
+    width: 30px;
+    background-color: teal;
+    border-radius: 4px;
+    margin-left: 10px;
+  }
+  
+  .modal_buttons {
+    height: 60px;
+    width: 420px;
+    color: white;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+  }
+  
+  .buton_template {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+  
+  .buton_template p {
+    margin-left: 5px;
+    margin-top: 15px;
+    font-size: 15px;
+  }
+  
+  .buton_template:hover {
+    cursor: pointer;
+  }
+  
+  .button_createBoard {
+    width: 120px;
+  }
+  
+  .button_close {
+    width: 110px;
+  }

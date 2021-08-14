@@ -1,0 +1,39 @@
+.login {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F9FAFC;
+}
+
+.login_title {
+    display: flex;
+    align-items: center;
+    margin: 25px;
+}
+
+.login_title p{
+    font-size: xxx-large;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #091E42;
+}
+
+.login_form{
+    height: auto;
+    width: 400px;
+    padding: 25px;
+    background-color: white;
+    box-shadow: 0px 0px 6px -3px #111;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login_form p{
+    color: #5E6C84;
+}
+
+.form_button {
+    width: 350px;
+}
